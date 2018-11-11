@@ -39,7 +39,7 @@ void loop ()
   //Posiciona o cursor na coluna 3, linha 0;
   lcd.setCursor(0, 0);
   //Envia o texto entre aspas para o LCD
-  lcd.print("Rodabras Rodas");
+  lcd.print("Velocidade");
   lcd.setCursor(0, 1);
   lcd.print("V = ");
   lcd.print(vFinal);
